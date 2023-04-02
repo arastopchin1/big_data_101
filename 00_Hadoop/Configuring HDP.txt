@@ -1,0 +1,15 @@
+1) Create user centOS:
+
+adduser andrey
+passwd andrey
+usermod -aG wheel andrey
+
+2) Enable user directory Ambari creation:
+
+vi /etc/ambari-server/conf/ambari.properties
+
+Add the following property: ambari.post.user.creation.hook.enabled=true
+
+Add the script path to the ambari properties file: ambari.post.user.creation.hook=/var/lib/ambari-server/resources/scripts/post-user-creation-hook.sh
+
+ambari-server restart

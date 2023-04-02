@@ -1,0 +1,5 @@
+#default configuration file
+
+bootstrap_servers:
+  host: 'sandbox-hdp.hortonworks.com'
+  port: '6667'

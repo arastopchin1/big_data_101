@@ -1,0 +1,5 @@
+path: 'hdfs://172.18.0.2'
+checkpointLocation: "/user/andrey/stream/checkpoint"
+bootstrap_servers:
+  host: 'sandbox-hdp.hortonworks.com'
+  port: '6667'

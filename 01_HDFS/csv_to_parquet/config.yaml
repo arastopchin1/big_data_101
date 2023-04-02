@@ -1,0 +1,7 @@
+#default configuration file
+
+hdfs:
+  url: 'http://172.18.0.2'
+  port: '50070'
+user: 'andrey'
+chunk_size: 1_000_000
